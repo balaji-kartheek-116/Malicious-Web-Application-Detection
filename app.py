@@ -159,7 +159,7 @@ def main():
         
         # Sample dataframe
         st.subheader("Sample DataFrame")
-        data = pd.read_csv('dataset.csv')
+        data = pd.read_csv('new_dataset.csv')
 
         # Assuming 'data' is your DataFrame
         data['type'] = data['type'].replace({'benign': 'legitimate', 'phishing': 'anonymous', 'defacement': 'anonymous', 'malware': 'anonymous'})
