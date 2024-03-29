@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+streamlit
+joblib
+tld
+colorama
